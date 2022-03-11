@@ -32,6 +32,7 @@ const displayContent = (text) => {
 
 const switchTab = (id) => {
     document.getElementById("liked").innerHTML=' ';
+    
     document.getElementById("reported").innerHTML=' ';
     if (id === "posts") {
         document.getElementById( "posts" ).style.display = "grid";
